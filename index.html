@@ -1,0 +1,596 @@
+<!Doctype html>
+<html lang="en-US">
+ <head>
+  <meta content="en-US" http-equiv="content-language">
+  <meta name="google" value="notranslate">
+  <meta name="robots" content="follow, index, max-snippet:-1, max-image-preview:large" /> 
+  <link href="https://www.fangs.infinityfreeapp.com" rel="canonical">
+  <link href="https://fangs.infinityfreeapp.com/images/icon.png" rel="icon">
+  <link rel="shortcut icon" href="https://fangs.infinityfreeapp.com/images/icon.png">
+  <title>Fangs</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="keywords" content="FANGS,Fangs,fangs,fangs gvl,Gvl poly fangs,AANM & VVRSR Polytechnic Gudlavalleru,fangs.infinityfreeapp.com,fangs.com,fangs website"/>
+  <meta name="description" content="Welcome to FANGS - Your go-to destination for a wide range of engaging content! Explore fascinating facts, intriguing stories, exciting games, and much more. Visit our site today and embark on a journey of discovery and fun!"/>
+  <meta name="author" content="Developed at Gudlavalleru"/>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script> 
+  <script nomodule="" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');           
+*
+{
+  	box-sizing: border-box;
+   	font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+body{ 
+	background-image: url(images/login.jpg);
+	background-repeat: no-repeat;
+	overflow-x: auto;
+    overflow-y: scroll;
+    background-size:  cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.line-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.line-container::before,.line-container::after {
+    content: '';
+    flex-grow: 1;
+    background-color: #c5c6c7;
+    height: 1px;
+    margin: 0 10px;
+}
+.or-text {
+    margin: 0 10px;
+    font-weight: bold;
+    color:#c5c6c7;
+}
+h1{
+    font-size:36px ;
+	margin-left: 24px;
+	color: #66FCF1;
+    position: relative;
+    position: relative;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+h1 img{
+    width: 15%;
+    margin: 10px;
+}
+h2
+{
+    margin-left: 0px;     
+    font-weight: bold;
+    color: #66fcf1;
+    position:relative;
+}
+.logform{
+    position: absolute; 
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.3);
+    right: 8%;
+    top: 18%;
+    z-index: 1;
+    width: 350px;
+    display: block;
+}  
+.field{  
+    margin : 15px;
+    width:300px;
+    height:35px;
+    border-radius:25px;
+    outline: none;
+    border: none;
+    background-color: #1f2833;
+    color: white;
+    transition: 0.3s ease;
+}
+.login{ 
+    text-align: center;
+    margin:10px;  
+}
+.f1{
+    background-color:  #1f2833;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    border-color:white;
+}
+.f1 ion-icon{
+    margin:10px;
+    font-size : 20px;
+    color: #66fcf1;
+}
+.f2{ 
+    margin-left: -5px;
+    height:35px;
+}
+.f1:hover{
+    box-shadow: 0px 0px 5px 5px  #66fcf1;
+}
+.heading{
+    font-size: 16px;
+    margin-left: -220px;
+    color: #c5c6c7;
+    font-weight: bold;
+}
+.footing{
+    color: #c5c6c7; 
+    font-size: 12px;
+    margin-left: -165px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+.f3{
+    background-color: #45a29e;
+    box-shadow: 1px 0px 5px 5px  #45a29e;
+    font-weight: 500;
+    cursor: pointer;
+}
+.f3:hover,.f4:hover{
+    background-color: #66fcf1;
+    box-shadow: 1px 0px 5px 5px  #66fcf1;
+    color:  #0b0c10;
+}
+.ex{
+    display: flex;
+    align-items: center;
+    color: #c5c6c7; 
+    font-size: 12px;
+}
+#spa1{
+    margin-left: 22px;
+    margin-top: -1px;
+}
+#spa2{
+    margin-left:22px;
+    cursor: pointer;
+}
+.container 
+{
+    POSITION: fixed;
+    left: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    z-index: 10;
+}
+.termsncond{
+    display: none;
+    position: fixed;
+    align-items: center;
+    width: 43%;
+    background-color:#0b0c10;
+    padding: 16px;
+    border-radius: 25px;
+    box-shadow: 1px 0px 5px 1px  #c5c6c7;   
+}
+.ter{
+    color: #c5c6c7; 
+    font-size: 16px;
+}
+.f4{
+    background-color: #45a29e;
+    box-shadow: 0px 0px 5px 5px  #45a29e;
+    font-weight: 500;
+    width: 94%;
+    cursor: pointer;
+}
+.close{
+    margin-bottom: -5px; 
+    font-size : 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navigat{
+    align-items: center;
+  	position: fixed;
+	display: flex;
+	width: 100%;
+  padding: 6px;
+}
+.options{
+	margin-right: 20px;
+	display: flex;
+  	align-items: center;
+	position: absolute;
+  transform: translateY(25%);
+ 	top: 10px;
+ 	right: 15px;
+}	
+.opt{
+	color: #45a29e;
+  font-weight: 700;
+	font-size: 22px;
+	border-radius: 25px;
+	border:none;
+	background-color: transparent;
+	cursor: pointer;
+ 	margin-left: 26px;
+  transition: 0.3s ease;
+}
+.opt:hover{	
+	background-color: #66fcf1;
+	box-shadow: 0px 0px 5px 5px  #66fcf1;
+	color: #0b0c10;
+}
+a{
+ 	display: flex;
+	text-decoration: none;
+   	font-weight: 500;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+a:hover{
+	color: #0b0c10;
+}
+.whats{
+	font-size: 20px;
+	margin-right: 10px;
+}
+.nonediv{
+	position: relative;
+    display: block;
+	top: 125px;
+	width: 910px;
+    margin-left: 20px;
+}
+.nonediv h1{
+    margin-left: 20px;
+    display: block;
+	font-size: 80px;
+	color:#1f2833;
+    text-shadow: 0px 0px 8px #66fcf1;
+}
+.descript{
+	font-size: 18px;
+	color: #c5c6c7;
+    text-align: justify;
+	font-weight: 500;
+	margin-left: 10px;
+	margin-top: 50px;
+	position: relative;
+}
+.foot{
+	display: flex;
+	font-size: 20px;
+	justify-content: center;
+	margin-top: 100px;
+	color: #c5c6c7;
+	font-weight: 600;
+}
+.highlight{
+    font-size: 1.2em;
+  	color: #66fcf1; 
+}
+@media screen and (min-width :1600px) {
+  .nonediv{
+    margin-left: 60px;
+  }
+}
+@media screen and (min-width :1500px) {
+  .nonediv{
+    margin-left: 40px;
+  } 
+}
+@media screen and (max-width:1420px){
+  body{
+    padding-bottom: 720px;
+  }
+  .navigat{
+    background-color: rgba(0,0,0,0.3);
+  }
+  .termsncond{
+    width: 80%;
+  }
+  .logform{
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    right: 0; 
+    top: 560px;
+  }
+  .nonediv{
+    margin-inline: auto;
+  }
+  .foot{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width:950px){
+  .nonediv{
+    padding-inline: 20px;
+    margin-left: 0;
+  }
+  .nonediv h1{
+    font-size: 74px;
+  }
+}
+@media screen and (max-width:600px){
+    #nav{
+		visibility: hidden;
+		position: relative;
+	}
+	#nav::before{
+		position: absolute;
+		visibility: visible;
+		content: 'Report';
+		margin-left: 160px;
+		width: 90px;
+		border-radius: 25px;
+	}
+	#nav:hover::before {	
+		background-color: #66fcf1;
+		box-shadow: 0px 0px 5px 5px  #66fcf1;
+		color: #0b0c10;
+	}
+    .termsncond{
+    width: 90%;;
+  }
+}
+@media screen and (max-width:476px){
+  #po1,#po2,#po3,#po4{
+    display: none;
+  }
+  .termsncond{
+    width: 94%;
+  }
+  #nav{
+    margin-left: -40px;
+  } 
+  #nav1{
+		visibility: hidden;
+		position: relative;
+	}
+	#nav1::before{
+		position: absolute;
+		visibility: visible;
+		content: 'Contact';
+		margin-left: 30px;
+		width: 90px;
+		border-radius: 25px;
+	}
+	#nav1:hover::before {	
+		background-color: #66fcf1;
+		box-shadow: 1px 0px 5px 5px  #66fcf1;
+		color: #0b0c10;
+	} 
+}
+@media screen and (max-width:364px){
+  #nav{
+    margin-left: -70px;
+  }
+  #spa1{
+    margin-top: -7px;
+  }
+
+}
+  </style>
+ </head>
+ <body>
+  <div class="navigat">
+    <h1>
+     <img src="images/site_logo.png">Fangs
+    </h1>
+    <div class="options">
+      <button class="opt" onclick="openreport()" id="nav">Report and Feedback</button>
+      <button class="opt" onclick="opencontact()" id="nav1">Contact Us</button>
+    </div>
+  </div>
+  <div class="logform">
+    <form class="login" method="POST" action="login.php" id="myForm">
+     <H2>Login</H2>
+      <p class="heading">User_Id</p>
+      <span class="field f1">
+       <ion-icon name="person"></ion-icon>
+       <input type="text" placeholder=" Enter User_Id" name="pinno"  class="field f2" required id="1"><br>
+      </span><br>
+      <p class="footing">Eg : 21030-CM-486</p>
+      <p class="heading">&nbsp;&nbsp&nbsp;&nbsp;Password</p>
+      <span class="field f1">
+       <ion-icon name="lock-closed"></ion-icon>
+       <input type="password" placeholder=" Enter Password" name="password" class="field f2" required id="2"><br>
+      </span><br>
+      <p class="footing">Eg : 486Shaik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <div class="ex">
+       <span id="spa1">
+        <input type="checkbox" required id="checkku" onclick="displayterms()">Terms and Conditions 
+       </span>
+       <span id="spa2" onclick="forgetting()">
+       Forgot Password ?
+       </span>
+      </div>
+      <button class="field f3" type="submit">Login</button><br>
+      <div class="line-container">
+        <div class="or-text">or</div>
+        <div class="horizontal-line"></div>
+      </div>
+      <button type="button" class="field f3" id="guest_login">Login As Guest</button>
+    </form>
+  </div>  
+  <div class="nonediv"s>
+   <h1 id="typingEffect">
+    ENDLESS <span class="span"></span>
+   </h1>
+   <p class="descript">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome to FANGS, the ultimate online platform where <span class="highlight">F</span>acts , <span class="highlight">A</span>ssignments a<span class="highlight">N</span>d <span class="highlight">G</span>ames , <span class="highlight">S</span>tories come together to ignite your imagination and expand your knowledge horizons. Embark on a captivating journey through our vast collection of intriguing facts, engaging assignments, immersive games, and captivating stories. Unleash your curiosity as you dive into a world of discovery, where each section offers its own unique adventure.
+   </p>
+   <p class="foot">&#169; 2024 FANGS</p>
+  </div>
+  <div class="container" id="popup1">
+    <div class="termsncond" id="termsandconditions">
+     <h2>Terms and Conditions<ion-icon name="close" onclick="closee()" class="close"></ion-icon></h2> 
+      <ul class="ter">
+       <li>Do not login with other's details.</li>
+       <li>Copyrights are claimed.</li>
+       <li>If there is any false information, then just contact us wihtout making a scene.</li>
+       <li>Do not mislead the information availaible in the Website.</li>
+      </ul>
+     <button class="field f4" onclick="checktrue()">Agree</button>  
+    </div>
+    </div>
+  <div class="container" id="popup4">
+    <div class="termsncond" id="contact">
+     <h2>Contact Us<ion-icon name="close" onclick="closeeeee()" class="close"></ion-icon></h2>
+     <ul class="ter">
+      <li id="po1">We value your feedback and are here to assist you. Please feel free to contact us with any questions, suggestions, or concerns you may have.
+      </li>
+      <li id="po2">Please let us know if there's anything we can do to assist you further.
+     </li>
+      <li>Your opinion matters to us, and we would love to hear about your experience with our services.
+      </li>
+      <li>Thank you for reaching out to us. We appreciate your feedback and look forward to assisting you!
+      </li>
+      <li>Click the button below to contact us :
+      </li>
+     </ul> 
+     <button class="field f4"><a href="contact_us.html" target="_blank"><ion-icon class="whats"name="person-circle"></ion-icon>Contact Us</a></button> 
+   </div>
+  </div>
+  <div class="container" id="popup2">
+    <div class="termsncond" id="forgott">
+     <h2>Forgot Password?<ion-icon name="close" onclick="closeee()" class="close"></ion-icon></h2>
+     <ul class="ter">
+      <li>
+       Please go through the "Contact Us" option and have a conversation with the Administrator to know your Password which you forgot. Thank You....!
+      </li>
+      <li>Do not try to know other's Password.
+      </li>
+     </ul> 
+     <button class="field f4" onclick="closeee()">OK</button> 
+   </div>
+  </div>
+  <div class="container" id="popup3">
+    <div class="termsncond" id="report">
+     <h2>Report and Feedback<ion-icon name="close" onclick="closeeee()" class="close"></ion-icon></h2>
+     <ul class="ter">
+      <li>We appreciate your feedback and suggestions!
+      </li>
+      <li id="po3">Please take a moment to share your thoughts, report any issues, or provide suggestions for improving our services.
+     </li>
+      <li>Your feedback is valuable to us in enhancing our platform and delivering a better 	experience for all users.
+      </li>
+      <li id="po4">Thank you for taking the time to provide your input!
+      </li>
+      <li>Click the button below to contact us :
+      </li>
+     </ul> 
+     <button class="field f4"><a href="contact_us.html" target="_blank"><ion-icon class="whats" name="person-circle"></ion-icon>Send Feedback</a></button> 
+   </div>
+  </div>
+  <script>
+    var typingEffect = new Typed(".span" , {
+      strings : ["FUN AWAITS","EXCITEMENT" , "JOY BEGINS"] ,
+      loop : true,
+      typeSpeed: 150,
+      backSpeed: 70,
+      startDelay: 100,
+      backDelay: 2500
+    });
+  </script>
+ <script>
+  function displayterms()
+  {
+	var termsandcond=document.getElementById("termsandconditions");
+        var pop1=document.getElementById("popup1");
+        pop1.style.display= 'flex'; 
+	termsandcond.style.display= 'block';    
+        if(document.getElementById("checkku").checked==false){
+	termsandcond.style.display= 'none';
+	pop1.style.display= 'none'; }  
+	    
+  }
+  function checktrue()
+  {
+	var termsandcond=document.getElementById("termsandconditions");
+	var pop1=document.getElementById("popup1");
+ 	document.getElementById("checkku").checked=true;
+	pop1.style.display= 'none'; 
+        termsandcond.style.display= 'none';
+  }
+  function closee()
+  {
+	var termsandcond=document.getElementById("termsandconditions");
+	var pop1=document.getElementById("popup1");
+ 	document.getElementById("checkku").checked=false;
+	pop1.style.display= 'none'; 
+        termsandcond.style.display= 'none';
+  }
+   function forgetting()
+  {
+	var forgotpass=document.getElementById("forgott");
+	var pop2=document.getElementById("popup2");
+	pop2.style.display= 'flex';
+        forgotpass.style.display= 'block';
+  }
+  function closeee()
+  {
+	var forgotpass=document.getElementById("forgott");
+	var pop2=document.getElementById("popup2");
+	pop2.style.display= 'none'; 
+        forgotpass.style.display= 'none';
+  }
+  function openreport()
+  {
+   	var reporting=document.getElementById("report");
+	var pop3=document.getElementById("popup3");
+	reporting.style.display= 'block';
+	pop3.style.display='flex';
+  }
+  function closeeee()
+  {
+	var reporting=document.getElementById("report");
+	var pop3=document.getElementById("popup3");
+	reporting.style.display= 'none';
+	pop3.style.display='none';
+	
+  }
+  function opencontact()
+  {
+   	var contacting=document.getElementById("contact");
+	var pop4=document.getElementById("popup4");
+	contacting.style.display= 'block';
+	pop4.style.display='flex';
+  }
+  function closeeeee()
+  {
+	var contacting=document.getElementById("contact");
+	var pop4=document.getElementById("popup4");
+	contacting.style.display= 'none';
+	pop4.style.display='none';
+  }
+  document.getElementById('guest_login').addEventListener("click",function(){
+      document.getElementById("1").required = false;
+      document.getElementById("2").required = false;
+      document.getElementById("checkku").required = false;
+      document.getElementById("1").value = "";
+      document.getElementById("2").value = "";
+      document.getElementById("myForm").submit();
+  });
+ </script>
+  <script>
+  var queryString = window.location.search;
+  var urlParams = new URLSearchParams(queryString);
+  var stringValue = urlParams.get('str');
+  if (stringValue !== null) {
+    alert(stringValue);
+  }
+  </script>
+
+ </body>
+</html>

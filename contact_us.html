@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://fangs.infinityfreeapp.com/images/icon.png">
+    <link rel="icon" href="https://fangs.infinityfreeapp.com/images/icon.png">
+    <title>Contact us-FANGS</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    padding: 10px;
+    background-color: white;
+}
+h2{
+    color:#44318d;
+}
+h2 big{
+    color: #a4b3b6;
+}
+img{
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h5{
+    color: black ;
+    margin: 20px;
+}
+.main-div{
+    border: solid 4px #c4c5c6;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 28px;
+    margin: 10px;
+    gap: 20px;
+}
+.inner{
+   height: 400px;
+   flex-grow: ;
+   width: 100% ;
+   background-color: #44318d;
+   border-radius : 20px;
+   margin-bottom: 30px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   box-shadow: 4px 4px 6px 4px #a4b3b6 ;
+   transition: all 0.6s ease;
+}
+.profile{
+    width: 130px;
+    aspect-ratio : 1;
+    border-radius : 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+.profile img{
+    width: 100%;
+}
+p{
+    font-size: 12px;
+    color: #c4c5c6;
+    font-weight: 600;
+}
+button{
+    border: none;
+    background-color: #d83f37;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+button:hover{
+    transform: scale(1.1) translateY(-10%);
+}
+button a{
+    color: inherit ;
+    text-decoration: none;
+}
+.rem{
+    display: none;
+    color: white;
+    font-size: 14px;    
+}
+.rem li{
+    margin: 4px;
+}
+.rem li a{
+    text-decoration: none;
+    color: inherit;
+}
+.form #arrow{
+    color: white;
+    transition: all 1.2s ease;
+}
+.form:hover{
+    height: 460px;
+    .rem{
+        display: block;
+    }
+    #arrow{
+        transform : rotate(180deg);
+    }
+}
+.foot{
+    text-align: center;
+    margin: 20px;
+}
+@media screen and (min-width: 420px){
+    .inner{
+        width: 300px;
+    }
+    img{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 600px;
+    }
+    .inner:hover{
+        transform: scale(1.08);
+    }
+    h2{
+        font-size: 40px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+    </style>
+</head>
+<body>
+    <h2>Contact Us - <big>FANGS</big></h2>
+    <img src="contact_us.png"/>
+    <h5>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Our Contact Us page serves as a central hub for users to connect with us and address various needs efficiently. Featuring a user-friendly contact form, visitors can easily submit inquiries regarding reporting issues, bugs, account creation, or general information.</h5>
+    <div class="main-div">
+        <div class="inner">
+            <div class="profile">
+                <img src="contact_us1.png"/>
+            </div>
+            <p>
+                Connect with us instantly through WhatsApp for quick and direct communication with our admin team. Whether you have questions, need assistance, or want to report an issue, we're just a message away!
+            </p>
+            <button><a href="https://wa.me/916302196757?text=From%20FANGS%20:%20">WhatsApp</a></button>
+        </div>
+        <div class="inner">
+            <div class="profile">
+                <img src="contact_us2.png"/>
+            </div>
+            <p>
+                Our Telegram bot offers a seamless experience for account management. Create, delete, or recover your account, and even change your password effortlessly using our intuitive bot interface.
+            </p>
+            <button><a href="https://t.me/SimonTheAdminBot">Telegram Bot</a></button>
+        </div>
+        <div class="inner">
+            <div class="profile">
+                <img src="contact_us3.png"/>
+            </div>
+            <p>
+                Reach out to us via SMS for convenient communication on the go. Send us your inquiries or feedback, and we'll respond promptly to assist you with any queries or concerns you may have.
+            </p>
+            <button><a href="sms://916302196757/?body=From%20FANGS :">Sms</a></button>
+        </div>
+        <div class="inner form">
+            <div class="profile">
+                <img src="contact_us4.png"/>
+            </div>
+            <p>
+                For users without access to messaging apps, our Google Forms provide an alternative method to submit inquiries or reports. Simply fill out the form relevant to your query, and our team will address your request promptly.
+            </p>
+            <ul class="rem">
+                <li>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScd9FhfgbGzkPOZhSlVYyjYfCtt6gGI7VLwd63AN9K1qakBYg/viewform?usp=sf_link">Report Issues or Bugs</a>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgRfNekE25s9l14v9YYJYEDE7ZDoYwOx03qhBlOpIhxORY2A/viewform?usp=sf_link">Create Account</a>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeX2Sy04OhdF9VOayuB9NwByHeo0OBbsFk8P6NIPW7VBJo_9w/viewform?usp=sf_link">Feedback & Suggestions</a>
+                </li>
+            </ul>     
+            <ion-icon name="chevron-down-outline" id="arrow"></ion-icon>
+        </div>
+    </div>
+    <h4 class="foot">&#169; 2024 FANGS</h4>
+</body>
+</html>
